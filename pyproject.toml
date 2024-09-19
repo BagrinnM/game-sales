@@ -11,7 +11,7 @@ requires-python = ">=3.8"
 license = "MIT"
 keywords = []
 authors = [
-  { name = "Bagrinn96", email = "nazarovapt@gmail.com" },
+  { name = "BagrinnM", email = "nazarovapt@gmail.com" },
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -27,9 +27,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/Bagrinn96/game-sales#readme"
-Issues = "https://github.com/Bagrinn96/game-sales/issues"
-Source = "https://github.com/Bagrinn96/game-sales"
+Documentation = "https://github.com/BagrinnM/game-sales#readme"
+Issues = "https://github.com/BagrinnM/game-sales/issues"
+Source = "https://github.com/BagrinnM/game-sales"
 
 
 [tool.hatch.envs.types]

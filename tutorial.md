@@ -35,7 +35,7 @@ Additionally, you can use the ***isna_view*** function to visualise the amount o
 ```python
 data.isna_view()
 ```
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/isna_view.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/isna_view.png?raw=true">
 
 And also use the resulting dataset at will as a ‘DataFrame’ object:
 ***But it is important not to do this if you want to work with this package, because it is designed to work with an object of class DataPreprocessing:***
@@ -66,7 +66,7 @@ It contains the following functions:
 gs.DataDiscovery(data).release_by_year()
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/release_by_year.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/release_by_year.png?raw=true">
 
 ***P.s.*** Data for the years when the current platforms are relevant is important.
 
@@ -79,8 +79,8 @@ gs.DataDiscovery(data).global_sales_by_genre()
 gs.DataDiscovery(data).global_sales_by_platform()
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/global_sales_by_genre.png?raw=true">
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/global_sales_by_platform.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/global_sales_by_genre.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/global_sales_by_platform.png?raw=true">
 
 ***Conclusion:*** The genres with the highest and most stable median sales are Shooter. On the other hand, while the Action genre releases significantly more games than others, its median sales values are low, and in fact, 75% of all games in this genre have not sold more than 250k copies. In contrast, the median sales for Shooters are already at the 500k mark. Sports and Platform genres also show relatively good performance. As for platforms, the most successful and relevant at the moment are PS3, PS4 and XOne.
 
@@ -90,7 +90,7 @@ gs.DataDiscovery(data).global_sales_by_platform()
 gs.DataDiscovery(data).sales_dynamics_by_platform()
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/sales_dynamics_by_platform.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/sales_dynamics_by_platform.png?raw=true">
 
 In 2016, 3 platforms lead in sales: PS4, XOne, and 3DS. HOWEVER, the data for 2016 is incomplete, and it is not worth concluding about a drop in sales. You can compare the growth/decline in other periods, such as 2015 vs. 2014.
 
@@ -100,8 +100,8 @@ In 2016, 3 platforms lead in sales: PS4, XOne, and 3DS. HOWEVER, the data for 20
 gs.DataDiscovery(data).plot_sales_vs_scores()
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/plot_sales_vs_scores.png?raw=true">
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/correlation.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/plot_sales_vs_scores.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/correlation.png?raw=true">
 
 ***Conclusion:*** The correlation between game reviews and sales for the PC platform is very weak. For other platforms, the correlation coefficient also does not reach any significant values.
 
@@ -111,7 +111,7 @@ gs.DataDiscovery(data).plot_sales_vs_scores()
 gs.DataDiscovery(data).sales_by_esrb()
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/sales_by_esrb.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/sales_by_esrb.png?raw=true">
 
 ***Conclusions:*** While the organization that assigns the age rating is based in America, in Japan most games are not assigned an age rating at all, so it does not affect sales. In Europe and North America, the best-selling games are in the 'For Everyone' category, followed by 'For Teens 13+' and 'For Adults'. 
 
@@ -128,8 +128,8 @@ gs.TopFive(data).plot_top_genres_by_region()
 gs.TopFive(data).plot_top_platforms_by_region()
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/plot_top_genres_by_region.png?raw=true">
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/plot_top_platforms_by_region.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/plot_top_genres_by_region.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/plot_top_platforms_by_region.png?raw=true">
 
 ***Conclusion:*** The most popular platform in Japan was Nintendo DS, but games for it stopped being released as early as 2013. 
 In Europe and North America, the most popular genres sind Action, Sports and Shooter. In Japan, the most preferred genre is Role-Playing followed by Action.

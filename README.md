@@ -55,7 +55,7 @@ gs.TopFive(data).plot_top_genres_by_region()
 
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/plot_top_genres_by_region.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/plot_top_genres_by_region.png?raw=true">
 
 Or for example, we need to analyze sales by ESRB rating and draw a conclusion:
 
@@ -65,7 +65,7 @@ gs.DataDiscovery(data).sales_by_esrb()
 
 ```
 
-<img src="https://github.com/Bagrinn96/game-sales/blob/main/img/sales_by_esrb.png?raw=true">
+<img src="https://github.com/BagrinnM/game-sales/blob/main/img/sales_by_esrb.png?raw=true">
 
 ***Conclusions***
 While the organisation that assigns the age rating is based in America, in Japan most games are not assigned an age rating at all, so it does not affect sales. In Europe and North America, the best-selling games are in the ‘mature 17+’ category, followed by ‘everyone’ and ‘teen 13+’. 
