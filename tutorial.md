@@ -1,8 +1,4 @@
-# Tutorial: Data Processing and Visualization Using the `game_sales` Package
 
-## Getting Started
-
-### 1. Import the package:
 
 ```python
 import game_sales as gs
